@@ -12,24 +12,26 @@
     <h2>Percentage Change Calculator</h2>
     
     <div class="container">
-    <label for="value1">First Value:</label>
-    <input type="text" id="value1" placeholder="Enter first value"><br><br>
+        <label for="value1">First Value:</label>
+        <input type="text" id="value1" placeholder="Enter first value"><br><br>
+        
+        <label for="value2">Second Value:</label>
+        <input type="text" id="value2" placeholder="Enter second value"><br><br>
+        
+        <p id="result">Percentage Change: </p>
     
-    <label for="value2">Second Value:</label>
-    <input type="text" id="value2" placeholder="Enter second value"><br><br>
-    
-    <p id="result">Percentage Change: </p>
-
-    <div class="btn-group" role="group">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-      Dropdown
-    </button>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-      <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-    </ul>
-    </div>
-    
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            </ul>
+            </div>
+        </div>
+            
     </div>
     
     <script>
